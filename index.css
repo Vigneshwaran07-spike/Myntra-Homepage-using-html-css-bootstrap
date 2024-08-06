@@ -1,0 +1,309 @@
+.offer2 {
+    width: 100%;
+    height: 100%;
+    padding: 0px 170px 0px;
+    display: flex;
+  }
+  
+  .coupen{
+    display: flex;
+    gap: 70px;
+  }
+  .coupen img{
+    width:700px;
+    
+
+  }
+
+  .deal{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(90deg,rgb(187, 225, 240),rgb(255, 255, 255),rgb(187, 225, 240));
+    border-color: #fff;
+    
+  }
+.bgimage{
+  height: 150px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  background-color: white;
+}
+
+
+   
+.card-overlay {
+  
+  bottom: 0;
+  
+  width: 100%;
+  background: none;
+  color: white;
+  
+  text-align: center;
+}
+
+.card1 {
+  position: relative;
+  width: 100px !important;
+  height: 50px !important;
+}
+
+
+.card2 {
+  position: relative;
+  width: 300px !important;
+  height: 250px !important;
+  gap: 30px;
+}
+
+
+
+.carousel-item1 {
+  display: flex;
+  gap: 50px;
+  
+}
+
+.carousel-item1 > .col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 40px 0px;
+  
+}
+
+
+  .photoslide {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .photoslide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photoslide li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0;
+    flex: 1;
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+  }
+  
+  .navbar-nav {
+    align-items: center;
+  }
+ 
+  .card{
+    margin: 0.5cm;
+    width: calc(100%/6);
+    padding-bottom: 10px;
+
+  }
+  .card-base {
+    /* position: relative; */
+    height: 70%;
+  }
+  
+  
+  .cards-wrapper{
+    display: flex;
+  }
+  .image-wrapper {
+    height: 21.8vw;
+    margin: 0 auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  .image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .card-base:hover {
+    transform: scale(1.5cm);
+    padding: 20px 20px 20px;
+  box-shadow: 0 4px 8px rgba(49, 48, 48, 0.2);
+  }
+  .card-title{
+    text-align: center;
+  }
+  
+  .carduh{
+    gap: 40px;
+    margin: 60px 0px 80px;
+  }
+
+  .roomuh{
+    position: relative;
+  width: 300px !important;
+  height: 200px !important;
+  
+  
+  }
+  
+  .roomuh:hover{
+    width: 80px !important;
+  }
+  body { 
+    color: white; 
+} 
+
+.footer {
+  background-color: rgb(158, 157, 157);
+  color: black;
+  padding: 40px 0;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .social-icons a {
+  color: black;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.footer .social-icons a:hover {
+  color: #aaa;
+}
+.footer .bottom {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.roomuh {
+  width: 18rem;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.roomuh:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Add CSS for the hover effect on dropdowns */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+  
+}
+.under:hover{
+  text-decoration: underline ;
+}
+
+.under::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust as needed for spacing */
+  width: 100%;
+  height: 4px; /* Adjust for underline thickness */
+ 
+}
+.flexx{
+  list-style-type: none;
+}
+.prof{
+  display: flex;
+  flex-direction: column;
+  align-items:first baseline;
+}
+
+/* @media screen  and (min-width:568px) {
+  .cards-wrapper{
+    display:flex !important;
+    flex-direction: column !important;
+  }
+} */
+/* @media screen and (max-width: 567px) {
+  .card:not(:first-child){
+        display: none !important;
+  }
+} */
+
+@media screen and (max-width:1100px){
+  .coupen img{
+    width:  300px !important;
+    margin-left: 20%;
+  }
+  .img2{
+    display: none !important;
+  }
+}
+@media (max-width:500px) {
+  .coupen-cor{
+    font-size: 40px !important;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .sear{
+    width: 50% !important;
+    margin-left: 15% !important;
+  }
+  .sear1{
+    display: none !important;
+    
+  }
+}
+@media screen and (max-width:1000px) {
+  .prof{
+    display: none !important;
+  }
+  .need{
+    display: none !important;
+  }
+  .sear{
+    margin-left: 0% !important;
+    width: 300px !important;
+  }
+}
+@media  (max-width:600px) {
+  .card1{
+    width: 50px !important;
+    height: 40px !important;
+    margin: 0 0 0;
+  }
+  .cont1{
+    margin-left: 0 !important;
+  }
+  .card2{
+      width: 50px !important;
+      height: 50px !important;
+  }
+  .category{
+    font-size: 40px !important;
+  }
+  
+ 
+  .roomuh{
+    width: 60px !important;
+    height: 70px !important; 
+   
+    
+  } 
+  .carduh{
+    display: inline-block !important;
+    
+  }
+
+  .hidfoot{
+    display: none !important;
+  }
+  .footer h6{
+
+    display: none !important ;
+  }
+  
+}
